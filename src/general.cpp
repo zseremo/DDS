@@ -71,7 +71,7 @@ std::vector<std::vector<double>> read_pinning_field(const std::string filename, 
 
 void change_external_stress(double* external_stress, const double external_stress_init, const double external_stress_rate, const int t_step, const double k_spring, const int plastic_strain)
 {
-    /// Updates external stress based on the applied external stess change and the stress change due to plastic deformation
+    /// Updates external stress based on the applied external stress change and the stress change due to plastic deformation
     /// external_stress: the value of external stress to be updated
     /// external_stress_init: the value of the initial external stress (at the start of the simulation)
     /// external_stress_rate: external stress rate (stress increment per simulation step)
